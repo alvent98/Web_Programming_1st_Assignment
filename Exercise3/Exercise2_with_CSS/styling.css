@@ -1,0 +1,66 @@
+body {
+	text-align: center;
+	background-color:#faffe8;
+	float: none;
+}
+p, ul, ol {
+	border-radius: 13px;
+	font-size: 15px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color:#ede8ff
+}
+h1,h2 {
+	font-size: 17px;
+	font-family: "Comic Sans MS", cursive, sans-serif; 
+}
+
+main h2, header h1 {
+	border-radius: 25px;
+	background-image: url("images/paper.jpg");
+	background-repeat: repeat;
+}
+
+ul, ol, footer, .prompt-contact, #image-legend, footer p {
+	margin-right: 20%; 
+	margin-left: 20%;
+}
+
+img {
+	border:6px double #b19cff;
+	float: none;
+}
+
+button, #submit-button {
+	border-radius: 8px;
+}
+
+/*Works in Chrome, not in Mozzila*/
+button.no-you-cannot:hover { 
+	position: relative;
+	right: 400px;
+	top: 0px;	
+}
+
+.no-you-cannot:active {
+  background-color: red;
+} 
+
+a:link {
+  color: #003cff;
+}
+
+a:visited {
+  color: #4545b0;
+}
+
+a:hover {
+  color: #02a615;
+}
+
+a:active {
+  color: red;
+} 
+
+#envelope {
+	border:none;
+}
