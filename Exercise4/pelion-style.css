@@ -1,0 +1,122 @@
+body {
+	border-radius: 25px;
+	text-align: center;
+	background-color:#faffe8;
+}
+
+p, ul {
+	border-radius: 13px;
+	font-size: 17px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color:#ede8ff;
+}
+
+#the-title {
+	font-size: 22px;
+	font-family: "Comic Sans MS", cursive, sans-serif; 
+	border-radius: 25px;
+	background-image: url("images/paper.jpg");
+	background-repeat: repeat;
+}
+
+ul, #validator {
+	margin-right: 20%; 
+	margin-left: 20%;
+}
+
+button, #submit-button {
+	border-radius: 8px;
+	margin: 0 auto;
+}
+
+/*Works in Chrome, not in Mozzila*/
+button.no-you-cannot:hover { 
+	position: relative;
+	right: 40%;
+	top: 0%;	
+}
+
+.no-you-cannot:active {
+	background-color: red;
+}
+
+a:link {
+	color: #003cff;
+}
+
+a:visited {
+	color: #4545b0;
+}
+
+a:hover {
+	color: #02a615;
+}
+
+a:active {
+	color: red;
+} 
+
+.row {
+	display: flex;
+}
+.column {
+	flex: 50%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#flex-nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#flex-cr {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	font-family: halimun-font;
+}
+
+#grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;	
+	border-radius: 25px;
+	text-align: center;
+	background-color:#faffe8;
+	padding: 10px;
+}	
+
+.all-grid-cols, footer {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.row {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#the-title {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+#flex-nav {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+@font-face {
+	font-family: halimun-font;
+	src: url('images/Halimun-W7jn.ttf')  format('truetype');
+}
